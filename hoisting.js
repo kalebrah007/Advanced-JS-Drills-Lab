@@ -1,4 +1,5 @@
-name='Joe Collias'
-var name;
+setName();
+function setName(){
+var name='Joe Collias'
 console.log(name);
-console.log('end of script');
+console.log('end of script');}
