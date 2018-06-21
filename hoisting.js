@@ -1,5 +1,9 @@
-setName();
-function setName(){
-var name='Joe Collias'
-console.log(name);
-console.log('end of script');}
+console.log('some text');
+let avg=findAvg(2,2);
+console.log('some text',avg);
+function findAvg(a,b){
+  console.log('some text');
+  var answer=(a+b)/2;
+  return answer;
+  console.log('end of script');
+} 
