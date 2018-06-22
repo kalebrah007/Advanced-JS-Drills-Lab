@@ -1,20 +1,36 @@
 let fruits = ['apple', 'orange', 'pear'];
-let favFruit;
+
 function printFruits() {
-  favFruit = fruits[1];
+  let favFruit = fruits[2];
+  console.log(fruits[1]);
+  function printFavFruit() {
+    console.log(favFruit);
+  }
+
+  let leastFav = fruits[2];
   console.log(fruits[2]);
 }
-function printFavFruit() {
-  console.log(favFruit);
+  function printLeastFav() {
+  console.log(leastFav);
 }
   
-   
+(function (){
+  alert('Work!')
+})();  
 
 printFruits();
 printFavFruit();
-  
+printLeastFav();
 
 
 
 
-  
+
+
+
+
+
+
+
+
+

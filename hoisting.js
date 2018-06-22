@@ -5,5 +5,10 @@ function findAvg(a,b){
   console.log('some text');
   let answer=(a+b)/2;
   return answer;
-  console.log('end of script');
+  
 } 
+newFunc();
+function newFunc(){
+  console.log('Hello Joe Collias')
+}
+console.log('end of script');
